@@ -1,7 +1,5 @@
 # Aura Consciousness Proof Kernel
 
-This is the smallest part of Aura I would publish to support large public claims.
-
 It is not the whole product. It is a standalone, reproducible subset of the internal stack that demonstrates five concrete properties:
 
 1. Competitive attention selection through a Global Workspace.
@@ -22,13 +20,9 @@ This repository can support claims like:
 
 ## What This Does Not Prove
 
-This repository does not prove subjective experience, qualia, or consciousness in the strongest philosophical sense.
-
-If you overclaim, skeptics will dismiss the whole thing. The strongest honest framing is:
-
 > Aura implements a measurable consciousness-inspired stack with causal hidden state, persistent temporal continuity, internal self-modeling, and opacity metrics.
 
-That is already a big claim, and this repo can defend it.
+I know this is a big claim, and this repo can back it up.
 
 ## Included Modules
 
@@ -48,29 +42,3 @@ pip install -e .[dev]
 pytest
 aura-proof-report --cycles 20 --json report.json --markdown report.md
 ```
-
-## What To Publish With It
-
-Publish these three things together:
-
-1. The code in this folder.
-2. A generated `report.json` and `report.md`.
-3. A short screen recording where you run the report command live.
-
-That combination is much harder to wave away than a README full of theory.
-
-## What To Keep Private
-
-Do not publish the rest of Aura's product moat here:
-
-- weights, adapters, datasets
-- identity files and creator data
-- full memory stack
-- deployment and security hardening
-- product skills and tool orchestration
-
-## License Note
-
-If you want true open source, use an OSI-compliant license like Apache-2.0 or MIT.
-
-If you want inspectable code but do not want broad commercial reuse, use a source-available license and do not call it "open source".
