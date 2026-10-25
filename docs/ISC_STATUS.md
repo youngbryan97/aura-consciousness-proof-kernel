@@ -27,10 +27,12 @@ records the repair and distinguishes its diagnostic from a fresh campaign.
   trigger the split-system test. The carrier report and completed J* join
   returned `NOT_FOUND` and `NO_CARRIER` respectively, with four bridge grounds
   holding and the carrier ground failing.
-- Source at `12bade935` now distinguishes an open boundary from a question the
-  measurement cannot settle. The acceptable closure margin is still unnamed;
-  the revised method needs fresh confirmation. It does not rewrite the old
-  recorded verdict or make 22/24 a full pass.
+- Source at `cf0ace7e3` distinguishes an open boundary from a question the
+  measurement cannot settle. Its preregistered rule derives the closure margin
+  from the least informative internal domain. The revised method and repaired
+  isolation need fresh confirmation; they do not rewrite the old verdict or
+  make 22/24 a full pass. See the
+  [rule update](https://github.com/youngbryan97/aura/blob/main/docs/evidence/ISC_CLOSURE_RULE_UPDATE_2026-10-25.json).
 
 22/24 is a count of operational checks. It is not a percentage of consciousness.
 
