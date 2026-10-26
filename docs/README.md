@@ -3,6 +3,12 @@
 Start with [the explanation](EXPLAINED.md). The [variables guide](VARIABLES.md)
 puts meanings, examples and the limits of each metaphor beside the numbers.
 
+For the larger project's terminology, use the
+[alphabetical glossary](https://github.com/youngbryan97/aura/blob/main/docs/GLOSSARY.md)
+and [formula guide](https://github.com/youngbryan97/aura/blob/main/docs/FORMULAS.md).
+The main ISC formulas and this demonstration's locally defined opacity ratio
+are different measurements; this repo's [variables](VARIABLES.md) explain the latter.
+
 | Page | Purpose | Status |
 |---|---|---|
 | [Project README](../README.md) | What this demonstration contains and how to run it | Current guide |

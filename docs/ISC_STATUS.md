@@ -16,6 +16,14 @@ need rechecking with that history properly isolated. The
 [source-hashed isolation update](https://github.com/youngbryan97/aura/blob/main/docs/evidence/ISC_ISOLATION_UPDATE_2026-10-25.json)
 records the repair and distinguishes its diagnostic from a fresh campaign.
 
+At `3e9211d3f`, a second shared record was repaired: recent degradation reports
+could affect the next arm's threat computation. The repaired-source pre-flight
+kept the unchanged state identical after sixty cuts and a clock shift, while
+its planted positive control moved the state. This is not a fresh campaign.
+The main status page also records that the derived-margin calculation exposed
+an estimator failure on the earliest fold of a developing run; naming the
+margin rule did not solve that measurement problem.
+
 ## Latest checked result from the main repository
 
 - The completed seed-23 run at `8f548ed79` passed 22/24 under ISC-v6 and 21/24
@@ -27,12 +35,17 @@ records the repair and distinguishes its diagnostic from a fresh campaign.
   trigger the split-system test. The carrier report and completed J* join
   returned `NOT_FOUND` and `NO_CARRIER` respectively, with four bridge grounds
   holding and the carrier ground failing.
-- Source at `cf0ace7e3` distinguishes an open boundary from a question the
-  measurement cannot settle. Its preregistered rule derives the closure margin
-  from the least informative internal domain. The revised method and repaired
-  isolation need fresh confirmation; they do not rewrite the old verdict or
-  make 22/24 a full pass. See the
-  [rule update](https://github.com/youngbryan97/aura/blob/main/docs/evidence/ISC_CLOSURE_RULE_UPDATE_2026-10-25.json).
+- At `72dd0d703`, the afternoon least-domain margin rule was withdrawn. No
+  margin is currently in force, so the gate cannot establish positive closure.
+  The estimator now predicts core change, reads outside columns as increments
+  and cannot use failed estimator folds to support closure. Read the
+  [withdrawal record](https://github.com/youngbryan97/aura/blob/main/docs/evidence/ISC_CLOSURE_WITHDRAWAL_2026-10-25.json).
+- At `517c4807c`, restore stopped copying bound-method tables into frozen organ
+  copies. Both unchanged twins could otherwise agree while processing through
+  the wrong state. Restored bindings therefore need verification alongside
+  unchanged-fork equality. These repairs do not rewrite the completed scores
+  or supply a fresh campaign result.
+
 
 22/24 is a count of operational checks. It is not a percentage of consciousness.
 
