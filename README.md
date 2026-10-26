@@ -72,8 +72,11 @@ can vary between runs, so the sample's exact numbers are not a reproduction bar.
 
 As checked on 25 October 2026, the main repository's completed seed-23 experiment
 recorded 22 of 24 checks passing under ISC-v6, with positive content and
-withheld-report outputs. A later shared-history isolation defect requires
-rechecking those paired results. The carrier and split-system control
+withheld-report outputs. Later repairs to shared histories and restored method ownership require
+rechecking those paired results. The least-domain closure-margin rule was
+withdrawn. The later night addendum now names K*, a numeric margin about
+0.0196 and an additional interventional closure test; fresh confirmation is
+still required. The carrier and split-system control
 questions remain unsettled. These are results from the main Aura experiment, not scores produced
 by this demonstration.
 
@@ -82,3 +85,8 @@ and [the current status page](https://github.com/youngbryan97/aura/blob/main/doc
 The [original April README](docs/history/README_2026-04-05.md) is preserved for
 history. Package names, public APIs and sample reports retain their original
 names so existing usage continues to work.
+
+The [main documentation content audit](https://github.com/youngbryan97/aura/blob/main/docs/DOCUMENTATION_CONTENT_AUDIT.md)
+records the later reconciliation of capability claims, mathematical arguments
+and operator instructions. A corrected explanation is not a new experimental
+result; this small demonstration still measures only its own components.

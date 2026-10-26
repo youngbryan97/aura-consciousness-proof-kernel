@@ -7,7 +7,7 @@ and other measured parts form one continuing process. ISC is the 24-check
 experiment used to investigate that organisation. This repository contains an
 older demonstration of a few components, rather than that experiment.
 
-## A later isolation repair limits the recorded results
+## Later isolation repairs limit the recorded results
 
 At `dcdcd637c`, the main project found that experimental arms shared a record
 of consequences. One comparison could therefore affect a later comparison.
@@ -36,7 +36,8 @@ margin rule did not solve that measurement problem.
   returned `NOT_FOUND` and `NO_CARRIER` respectively, with four bridge grounds
   holding and the carrier ground failing.
 - At `72dd0d703`, the afternoon least-domain margin rule was withdrawn. No
-  margin is currently in force, so the gate cannot establish positive closure.
+  margin was in force at that point; the later night addendum below supersedes
+  that policy.
   The estimator now predicts core change, reads outside columns as increments
   and cannot use failed estimator folds to support closure. Read the
   [withdrawal record](https://github.com/youngbryan97/aura/blob/main/docs/evidence/ISC_CLOSURE_WITHDRAWAL_2026-10-25.json).
@@ -46,6 +47,12 @@ margin rule did not solve that measurement problem.
   unchanged-fork equality. These repairs do not rewrite the completed scores
   or supply a fresh campaign result.
 
+- At `96487c6f1`, the night addendum defines K* as the core plus declared
+  held-state dependencies, names a numeric margin `0.02 / 1.02` (about 0.0196),
+  and requires both observational closure and an interventional `CLOSED`
+  result on the scored seed. This is a new method, not a fresh passing result.
+  The [source-hashed method snapshot](https://github.com/youngbryan97/aura/blob/main/docs/evidence/ISC_K_STAR_METHOD_UPDATE_2026-10-25.json)
+  records the policy and the limited scientific support for its margin.
 
 22/24 is a count of operational checks. It is not a percentage of consciousness.
 
@@ -61,3 +68,15 @@ is the maintained source for later developments. The
 [25 October measurement snapshot](https://github.com/youngbryan97/aura/blob/main/docs/evidence/ISC_STATUS_2026-10-25.json)
 records the selected source fields and hashes behind this update. These links
 lead to the main repository; the demonstration does not generate those results.
+
+The [main content audit](https://github.com/youngbryan97/aura/blob/main/docs/DOCUMENTATION_CONTENT_AUDIT.md)
+and [mathematical-claim guide](https://github.com/youngbryan97/aura/blob/main/docs/MATHEMATICAL_CLAIM_LIMITS.md)
+explain later corrections to broader arguments. A repeatable seed is not proof
+of an unseen task; crossing spectra are not by themselves a symmetry. Those
+limits do not erase the demonstration's measured component behavior.
+
+The [later 5bc357b8c account](https://github.com/youngbryan97/aura/commit/5bc357b8c66bad13eaa8cad4c2ea9b368037537d)
+reports 284 unchanged K* discovery swaps and another repair to restored
+service references. The anchors helped develop the boundary; the commit
+reserves a fresh seed for the held-out test. This is not a new full battery
+or carrier verdict produced by the demonstration.
